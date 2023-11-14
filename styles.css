@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe135; /* Yellow */
+}
+
+header {
+    background-color: #00bfff; /* Deep Sky Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.bio {
+    text-align: center;
+    padding: 2em;
+}
+
+.bio img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 1em;
+    border: 5px solid #ff1493; /* Deep Pink */
+}
+
+.interests,
+.projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00bfff; /* Deep Sky Blue */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #00bfff; /* Deep Sky Blue */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
